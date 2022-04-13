@@ -1,6 +1,31 @@
-// Import stylesheets
-import './style.css';
+let numero1 = 1;
+let numero2 = 2;
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+function adicao () {
+  console.log(`${numero1} + ${numero2} = ${numero1 + numero2}`)
+  console.log(numero1 + ' + ' + numero2 + ' = ' + (numero1 + numero2))
+}
+adicao()
+
+function subtracao () {
+  console.log(`${numero1} - ${numero2} = ${numero1 - numero2}`)
+  console.log(numero1 + ' - ' + numero2 + ' = ' + (numero1 - numero2))
+}
+subtracao()
+
+function multiplicacao () {
+  console.log(`${numero1} x ${numero2} = ${numero1 * numero2}`)
+  console.log(numero1 + ' x ' + numero2 + ' = ' + (numero1 * numero2))
+}
+multiplicacao()
+
+function divisao () {
+  console.log(`${numero1} : ${numero2} = ${numero1 / numero2}`)
+  console.log(numero1 + ' : ' + numero2 + ' = ' + (numero1 / numero2))
+}
+divisao()
+
+
+
+
+
